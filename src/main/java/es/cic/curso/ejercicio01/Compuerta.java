@@ -1,6 +1,7 @@
 package es.cic.curso.ejercicio01;
 
-public interface Compuertas {
+public interface Compuerta {
     void abrirCompuerta();
     void cerrarCompuerta();
+    boolean isCompuertaAbierta();
 }
